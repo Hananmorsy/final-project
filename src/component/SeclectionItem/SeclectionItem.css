@@ -1,0 +1,19 @@
+.child1 {
+    width: 100%;
+    height: 100%;
+    padding-top: 35px;
+  /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catelogo{
+    width: 100%;
+    height: 80%;
+}
+@media only screen and (max-width: 600px) {
+  .child1{
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+}

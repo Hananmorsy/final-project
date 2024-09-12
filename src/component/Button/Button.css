@@ -1,0 +1,16 @@
+.btn{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: start;
+}
+@media only screen and (max-width: 600px) {
+    .btn{
+        font-size: 10px;
+        row-gap: 20px;
+    }
+    .btn1{
+        font-size: 12px;
+    }
+
+}

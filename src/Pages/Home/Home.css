@@ -1,0 +1,32 @@
+#logo3{
+    width: 100%;
+}
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    row-gap: 30px;
+}
+.Categoriesdiv{
+    width: 85%;
+    height: 500px;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Categoriesdiv{
+        width: 85%;
+        height: 1000px;
+        /*background-color: aqua;*/
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

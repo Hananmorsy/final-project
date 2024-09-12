@@ -1,0 +1,49 @@
+.child4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+width: 200px;
+height: 200px;
+border: 1px solid #ccc;
+overflow: hidden;
+transition: all 0.3s ease;
+}
+.childbtn{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(128, 128, 128, 0.5); 
+opacity: 0; 
+display: flex;
+justify-content: center;
+align-items: center;
+transition: opacity 0.3s ease; 
+}
+.child4:hover .childbtn,
+.child4:active .childbtn {
+  opacity: 1; 
+}
+.btnhover{
+  padding: 10px 20px;
+  background-color: #eff4fa; 
+  color:rgba(184, 142, 47, 1); 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+}
+
+#Product{
+width: 100px;
+height: 120px;
+}
+@media only screen and (max-width: 600px) {
+  #Product{
+    width: 60px;
+    height: 80px;
+    }
+  }

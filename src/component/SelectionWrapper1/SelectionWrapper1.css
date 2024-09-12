@@ -1,0 +1,27 @@
+.productSection1{
+    width: 20%;
+    height: 200px;
+  /*  background-color: rgb(255, 183, 0);*/
+    margin: 0;   
+}
+h2{
+   font-size: 15px ;
+}
+.child2{
+    width: 100%;
+    height: 100%px;
+    display: flex;
+    flex-wrap: wrap;
+  /*  background-color: red;*/
+    gap: 10px;
+    justify-content: center;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .productSection{
+    width: 40%;
+    height: 200px;
+  /*  background-color: rgb(255, 183, 0);*/
+    margin: 0;   
+}
+}
