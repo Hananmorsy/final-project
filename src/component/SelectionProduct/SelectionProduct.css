@@ -37,12 +37,12 @@ transition: opacity 0.3s ease;
   align-items: center;
 }
 
-#Product{
+.Product{
 width: 100px;
 height: 120px;
 }
 @media only screen and (max-width: 600px) {
-  #Product{
+  .Product{
     width: 60px;
     height: 80px;
     }

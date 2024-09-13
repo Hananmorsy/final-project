@@ -3,11 +3,11 @@ function SelectionProduct (prpos) {
    
     return(
         <div className='child4'>
-            <img  id='Product'  src={prpos.image} />
+            <img  className='Product'  src={prpos.image} />
             <h2>{prpos.title}</h2>
             <label>{prpos.price}</label>
             <label>{prpos.category}</label>
-            <label>{prpos.rating}</label>
+
             <div className='childbtn'>
             <button className='btnhover'>More Details</button>
             </div>

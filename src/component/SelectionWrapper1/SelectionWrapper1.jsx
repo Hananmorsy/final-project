@@ -23,15 +23,13 @@ function SelectionWrapper1() {
           {products.map((Product)=> {
             return(
                
-                <Link className="productSection1" to={`/Product/${Product.id}`}>
+                <Link className="productSection" to={`/Product/${Product.id}`}>
                     <SelectionProduct 
                     key ={Product.id}
                image = {Product.image}
                 title = {Product.title}
                 price ={Product.price}
                 category={Product.category}
-                rating={Product.rating.count}
-                
 
                 ></SelectionProduct>
 

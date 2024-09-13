@@ -50,7 +50,7 @@ function Selectiom() {
           {arrayOfObjects.map((Shop)=> {
             return(
                
-                <Link className="productSection" to={`/Shop/${Shop.id}`}>
+                <Link className="productSection1" to={`/Shop/${Shop.id}`}>
                        <SeclectionItem 
                 selectionLogo = {Shop.selectionLogo}
                 category = {Shop. category}
